@@ -1,0 +1,92 @@
+#firstDiv{
+    width:712px;
+    height: 300px;
+    background-color: blue;
+}
+
+
+#secondDiv{
+    width:50%;
+    min-width: 350px;
+    max-width: 600px;
+    height: 55vh;
+    background-color: lawngreen;
+}
+
+#secondChildDiv{
+    width: 50%;
+    height: 150px;
+    background-color:tomato;
+}
+
+   
+@media only screen and (min-width:1px)
+and (max-width:5760px){
+    body{
+        background-color: darkblue;
+    }
+    h1{
+        color: gray;
+    }
+}
+
+
+@media only screen and (min-width:576px)
+and (max-width:768px){
+    body{
+        background-color: palevioletred;
+    }
+    h1{
+        color: white;
+    }
+}
+
+
+
+@media only screen and (min-width:768px)
+and (max-width:992px){
+    body{
+       background-color: orange;
+
+    }
+    h1{
+        color: teal;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 992px)
+and (max-width: 1200px){
+    body{
+        background-color: aqua;
+    }
+    h1{
+        color: palevioletred;
+    }
+}
+
+
+@media only screen and (min-width:1200px)
+and (max-width:1400px){
+    body{
+        background-color: yellow;
+    }
+    h1{
+        color: blueviolet;
+    }
+}
+
+
+
+@media only screen and (min-width:1400px){
+    body{
+        background-color: darkmagenta;
+    }
+    h1{
+        color: cadetblue;
+    }
+}
+
+
